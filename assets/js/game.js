@@ -1,9 +1,13 @@
 let word;
-
+    
 const words = ["accident", "accurate", "actual", "adult", "address", "afraid", "answer", "appear", "April", "arrive", "attention", "August", "Autumn", "believe", "bicycle", "Birthday", "breath", "build", "busy", "business", "calculate", "calendar", "cartoon", "caught", "centre","century","certain", "chocolate", "Christmas", "circle","complete", "communicacte", "consider","continue", "corpse", "computer", "couch", "current", "decide","December", "debt","delicious", "describe","different","difficult","disappear", "dessert", "dream", "early","earth","eight","enough", "exercise", "excited", "experience","experiment","extreme","famous","favourite","February", "figure", "forward","Friday","fruit", "general", "generate", "grammar","group","guard","guide", "Halloween", "heard","heart","height","history", "horrizon", "hour","imagine", "increase", "important", "instinct", "interest", "island","January", "judge", "June", "July", "knowledge", "learn", "length", "library", "light", "magic", "March", "May", "material", "medicine", "mention", "minute", "mobile", "Monday", "movie", "multiply", "natural", "narrate", "naughty", "notice", "November", "occasion", "October", "often", "opposite", "ordinary", "particular", "peculiar", "perhaps", "popular", "position", "possession", "possible", "potatoes", "pressure", "probably", "promise", "purpose", "quarter", "question", "radio", "random", "recent", "regular", "reign", "remember", "respect", "Saturday", "scent", "scene", "science", "seconds", "September", "sense", "sentence", "Spring", "separate", "simple","special", "shallow", "straight", "strange", "strength", "Summer", "Sunday", "suppose", "surprise", "square", "tangle", "telephone", "television", "terrified", "therefore","though", "thought", "Thursday", "through", "triangle", "Tuesday", "Universe", "unite", "Valentines", "various", "weight", "Wednesday", "Winter", "woman", "xylophone" ]
 
+document.getElementById("generate").addEventListener("click", function(){
+    currentWord = Math.floor(Math.random() * (175));
+    word=words[currentWord]
 
-document.getElementById('generate').addEventListener('click', function (){
-    number.Math.floor(Math.random () * (163 + 1))
-})
+        const utterance = new SpeechSynthesisUtterance();
+        utterance.text=word
+        speechSynthesis.speak(utterance)
+});
 
