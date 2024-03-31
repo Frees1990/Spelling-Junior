@@ -1,4 +1,4 @@
-
+/* Body */
 body {
     width: 100%;
     height: 100vh;
@@ -10,18 +10,18 @@ body {
     margin-right: auto;
     width: 350px
 }
+.board-function {
+    text-align: center;
+    margin-top: 20px;
+}
+/* INPUT BOX */
 #Entry {
     margin-top: 20px;
     text-align: center;
     width: 385px;
     padding: 5px;
-
 }
-
-.board-function {
-    text-align: center;
-    margin-top: 20px;
-}
+/* Check Button */
 #check{
     width: 100px;
     padding: 5px;
@@ -29,6 +29,8 @@ body {
     margin: 10px 0 10px 0;
     background-color: yellow;
 }
+
+/* Generate and Repeat Button */
 #generate, #talk {
     width: 250px;
     padding: 5px;
