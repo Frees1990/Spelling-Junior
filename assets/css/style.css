@@ -1,11 +1,12 @@
-@import url();
-
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 /* Body */
-
 body{
     width: auto;
     height: auto;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 .center {
     display: block;
@@ -26,6 +27,10 @@ body{
     width: 685px;
     padding: 10px;
     font-size: large;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 /* Check Button */
 #check{
@@ -36,6 +41,10 @@ body{
     cursor: pointer;
     padding: 10px;
     background-color: yellow;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .btn2{
@@ -51,6 +60,10 @@ body{
     background-color: green;
     font-size: large;
     color: aliceblue;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 #talk {
@@ -64,6 +77,10 @@ body{
     margin-left: 485px;
     margin-top: 20px;
     font-size: x-large;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 
 .mistakes {
@@ -71,4 +88,8 @@ body{
     margin-left: 325px;
     margin-top: 20px;
     font-size: x-large;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
