@@ -28,9 +28,6 @@ body{
     padding: 10px;
     font-size: large;
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
 }
 /* Check Button */
 #check{
@@ -38,18 +35,11 @@ body{
     margin-bottom: 10px;
     margin-left: 15px;
     width: 200px;
-    cursor: pointer;
     padding: 10px;
     background-color: yellow;
-    font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
-    letter-spacing: 3px;
-}
-
-.btn2{
     font-size: large;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 3px;
 }
 
 /* Generate and Repeat Button */
@@ -62,9 +52,6 @@ body{
     font-size: large;
     color: white;
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
     letter-spacing: 3px;
 }
 
@@ -81,8 +68,6 @@ body{
     font-size: x-large;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
 }
 
 .mistakes {
@@ -92,6 +77,4 @@ body{
     font-size: x-large;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
-    font-weight: weight;
-    font-style: normal;
 }
