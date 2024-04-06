@@ -60,12 +60,6 @@ document.getElementById("check").addEventListener("click", function() {
     document.getElementById("Entry").value='';
 });
 
-// function checkAnswer() {
-//     let userEntry = parseInt(document.getElementById("Entry").value);
-//     let CorrectEntry = check();
-//     let IsCorrect = userEntry === CorrectEntry[0];
-// }
-
 function TallyScore() {
     let prevScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++prevScore;
