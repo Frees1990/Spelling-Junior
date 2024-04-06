@@ -42,9 +42,6 @@ document.getElementById("talk").addEventListener("click", function(){
 
 // This here is for the check button to check if the word entered was correct or not, there is alsoo an alert to let the user know if the word enetered is correct. 
 
-
-
-
 document.getElementById("check").addEventListener("click", function() { 
     const Entry = document.getElementById("Entry").value;
 
@@ -60,6 +57,8 @@ document.getElementById("check").addEventListener("click", function() {
     document.getElementById("Entry").value='';
 });
 
+
+// This is where the scores are incremented
 function TallyScore() {
     let prevScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++prevScore;
