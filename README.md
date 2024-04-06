@@ -1,110 +1,237 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# SPELLING TIME
 
-Welcome Frees1990 ,
+### Welcome to SPELLING TIME!!
+![UI]
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<!-- Introducttion about the site -->
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Table of Contents
 
-## Gitpod Reminders
+- [Speling Time](#Spelling-Time)
+  - [Table of Contents](#table-of-contents)
+  - [**UX**](#ux)
+    - [**Site Purpose**](#site-purpose)
+    - [**Site Goal**](#site-goal)
+    - [**Current User Goal**](#current-user-goal)
+    - [**New User Goal**](#new-user-goal)
+    - [**Communication**](#communication)
+  - [**Design**](#design)
+    - [**Wireframe**](#Balsamiq)
+    - [**Colour Palette**](#colour-palette)
+    - [**Typography**](#typography)
+    - [**Images**](#images)
+  - [**Features**](#features)
+    - [**Language Used**](#language-used)
+    - [**Navigation Bar**](#navigation-bar)
+    - [**Landing Page**](#landing-page)
+    - [**Footer**](#footer)
+    - [**Future Features**](#future-features)
+  - [**Testing**](#testing)
+    - [**HTML Validatior Test**](#html-validatior-test)
+    - [**CSS Validator Test**](#css-validator-test)
+    - [**Lighthouse Mobile**](#lighthouse-mobile)
+    - [**Libraries and Progransms used**](#libraries-and-progransms-used)
+  - [**Deployment & Usage**](#deployment--usage)
+    - [**Deployment**](#deployment)
+  - [**Credits**](#credits)
+    - [**Media**](#media)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## **UX**
 
-`python3 -m http.server`
+### **Site Purpose**
 
-A blue button should appear to click: _Make Public_,
+### Website Purpose:
+#### What For:
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Who For: 
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### **Site Goal**
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### **Current User Goal**
 
-------
 
-## Release History
+### **New User Goal**
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**September 20 2023:** Update Python version to 3.9.17.
+### **Communication**
+ 
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## **Design**
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### **Wireframe**
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### WEBPAGE VIEW
+  ![Home Page]
+  ![My Story Page]
+  ![Visa Process Page]
+  ![Documents Page]
+  ![Contact Page]
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+### MOBILE VIEW
+  ![MHome Page]
+  ![MMy Story Page]
+  ![MVisa Process Page]
+  ![MDocuments Page]
+  ![MContact Page]
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+ 
+### **Colour Palette**
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### **Typography**
+Playfair and Sans-Serif 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### **Images**
+#### Home Page:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+#### My Story Page:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Visa Process Page:
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+## **Features**
+### NAVIGATION BAR ON ALL PAGES WITH ACTIVE HIGHLIGHT
+  ![Nav Bar]
 
-## FAQ about the uptime script
+  
+### SHORT DESCRIPTIVE TEXT ABOUT THE SITE AND PHOTO OF THE CONTENT CREATOR
 
-**Why have you added this script?**
+  ![description]
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+### SOCIAL LINKS
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+  ![Social Links]
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+   
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### CAROUSEL
+    
+  ![carousel]
 
-**So….?**
+  
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### WORKING LINKS
+  ![Working Links]
 
-**Can I opt out?**
+  
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### VIDEO
+  ![VIDEO]
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### DOWNLOADABLE PDF LINK
+  ![PDF LINK ]
 
----
+  ### CONTACT PAGE 
+  ![Contact Page]
 
-Happy coding!
+  
+
+
+
+### **Language Used**
+ 
+
+### **Navigation Bar**
+
+
+### **Landing Page**
+
+### **Footer**
+
+
+### **Future Features**
+
+
+## **Testing**
+### Bugs and Issues
+  - ##### IDE issues
+    
+
+  - #### Code Issues
+   
+  - #### Path Issues 
+    
+  - #### Deployment Issues  
+
+### **HTML Validatior Test**
+
+### **CSS Validator Test**
+
+### **Lighthouse Desktop/Mobile**
+
+- I ran the lighthouse both in google chrome and incognito mode in mobile and as well desktop. 
+The First time I ran it it gave me : 
+
+  - 43% perfromance and 100% on accessibility, Best Practice and SEO for my home page.
+  - 75% perfromance 100% on accessibility, Best Practice and SEO.
+  - 56% perfomance 100% on accessibility, Best Practice and SEO.
+  - 99% performance 100% on accessibility, Best Practice and SEO.
+  - 100% performance 100% on accessibility, Best Practice and SEO.
+
+
+   I read through the list of things that I could improve on. One of them is compressing my images from Home page and Visa Process page which I did, after compressing my image, uploading it and pushed it on Github. 
+   
+   I tried ruinning lighthouse again, it gave me :
+   - 75% perfromance, 80%  accessibility, 100% Best Practice and 89% SEO.
+   Unfortunately, I wasn't able to screenshot the above and could not remember the rest. I do not understand why it affected the accessiblity and the SEO. I was reading through it and it's citing my CDN's but I cannot delete my CDN's beause they are necessary for my bootstrap code. 
+
+The mose confusing part after hours and hours finding a way for it to get a green, I finally gave up. Open my deployed site again the next day and is now giving me a different score. This part of testing took me 4 days 5 hrs each day and still could not understand, unfortunately its nearly time to submit my project and I will ready through about lighthouse in my own pace to understand how it works. At the moment, to be honest I have no clue what I am doing with lighthouse but it would be interesting to find out what I did wrong and what I can do to achieve full marks on this testing. 
+
+### LIGHTHOUSE LASTMINUTE FIX 30-01-2024
+
+## **Libraries and Programs used**
+
+
+## **Deployment & Usage**
+### **Deployment**
+To deploy my site on Git Hub I made the following steps. I found out how to deploy my project when I was playing around with github trying to fix my incorrect path which hinders my images to load up on live. 
+
+These are the steps:
+
+ - Go to the Settings tab of your GitHub repo.
+ - On the left-hand sidebar, in the Code and automation section, select Pages.
+ - Make sure: Source is set to 'Deploy from Branch'.
+ - Main branch is selected.
+ - Folder is set to / (root).
+ - Under Branch, click Save.
+ - Go back to the Code tab. Wait a few minutes for the build to 
+ - finish and refresh your repo.
+ - On the right-hand side, in the Environments section, click on 'github-pages'.
+ - Click View deployment to see the live site
+
+### **Fork**
+  1.  On GitHub.com, navigate to the Visa-Chronicles repository.
+  2.  In the top-right corner of the page, click Fork.
+  3.  Under "Owner," select the dropdown menu and click an owner for the forked repository.
+  4.  By default, forks are named the same as their upstream repositories. Optionally, to further distinguish your fork, in the "Repository name" field, type a name.
+  5.  Optionally, in the "Description" field, type a description of your fork.
+  6.  Optionally, select Copy the DEFAULT branch only.
+  7.  Click Create fork.
+
+### **Cloning**
+  1.  On GitHub.com, navigate to your fork of the Spoon-Knife repository.
+  2.  Above the list of files, click  Code.
+  3.  Copy the URL for the repository.
+    - To clone the repository us
+    itory using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click .
+    - To clone a repository using GitHub CLI, click GitHub CLI, then click .
+  4.  Open Git Bash.
+  5.  Change the current working directory to the location where you want the cloned directory.
+  6.  Type git clone, and then paste the URL you copied earlier. It will look like this, with your GitHub username instead of YOUR-USERNAME:
+  7.  Press Enter. Your local clone will be created.
+
+## **Credits**
+
+
+### **Media**
