@@ -19,7 +19,6 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-
 // This here is to generate the words above on shuffle"random"
 
 document.getElementById("generate").addEventListener("click", function(){
@@ -67,3 +66,4 @@ function TallyMistake() {
     let prevScore = parseInt(document.getElementById("mistake").innerText);
     document.getElementById("mistake").innerText = ++prevScore;
 }
+
