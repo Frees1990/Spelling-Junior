@@ -39,13 +39,15 @@
 ## **UX**
 
 ### **Site Purpose**
+    With the developement in technology we have seen a lot of improvements in our children when it comes to getting everything digitize. Like everthing else good unfortunately there are also adheres effect on this. 
+    A lot of children are prone to shortcuts not a bad thing though but this pushed us in decline of children unable to spell even the easiest word. 
 
-### Website Purpose:
-#### What For:
 
+#### What For: 
+    This Web based game is to improve and develope my kids spelling skill. 
 
 #### Who For: 
-
+    I designed this web game to improve on my kids spelling skill, to me spelling is something a lot of us should encourage our children to improve in.
 
 
 ### **Site Goal**
@@ -56,6 +58,7 @@
 
 
 ### **New User Goal**
+    My Goal is for this Site game is to let user's(Parents/Guardian/Teachers) to ADD/EDIT words according to what they need to practice on. I think this could only be done using Python. 
 
 
 ### **Communication**
