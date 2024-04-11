@@ -13,14 +13,20 @@ body{
     margin-top: 25%;
     text-align: center;
 }
-label {
+/* label {
     font-size: x-large;
-}
+} */
 #name {
     padding: 10px;
     width: 300px;
 }
-.subBTN {
+#wordcount{
+    padding: 10px;
+    width: 300px;
+}
+#startGame {
+    adding: 10px;
+    width: 300px;
     font-size: x-large;
 }
 .center {
