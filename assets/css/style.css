@@ -13,21 +13,26 @@ body{
     margin-top: 25%;
     text-align: center;
 }
-/* label {
+label {
+    margin-left: 20px;
     font-size: x-large;
-} */
+}
 #name {
+    margin-left: 20px;
+    padding: 10px;
+    width: 300px; 
+}
+#wordsCount{
+    margin-left: 20px;
     padding: 10px;
     width: 300px;
-}
-#wordcount{
-    padding: 10px;
-    width: 300px;
-}
+} 
 #startGame {
-    adding: 10px;
-    width: 300px;
-    font-size: x-large;
+    margin-left: 50px;
+    padding: 10px;
+    font-size:large;
+    background-color: red;
+    font-family: inherit;  
 }
 .center {
     display: block;
