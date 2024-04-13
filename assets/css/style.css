@@ -8,10 +8,12 @@ body{
     font-weight: weight;
     font-style: normal;
 }
-/* Index */
+/* INDEX */
 /* navbar */
 .indexNav{
-    margin-left: 90%;
+    margin-left: auto;
+    margin-right:3%;
+    font-weight: bolder;
 }
 /* form */
 .front {
@@ -33,15 +35,27 @@ label {
     padding: 10px;
     font-size:large;
     background-color: red;
-    font-family: inherit;  
+    font-size: x-large;
 }
-
-
-/* Game */
+/* HELP */
+.helpHead {
+    text-align: center;
+    margin-top: 5%;
+    color:blue;
+    letter-spacing: 5px;
+    background-color: rgb(238, 4, 4);
+    padding: 20px 0 20px 0;
+}
+.InstructGame {
+    text-align: center;
+    margin: 1% 0 2% 0;
+}
+/* GAME */
 /* navbar */
 .gameNav{ 
-    margin-left: 50%;
+    margin-left: 1%;
     font-size: x-large;
+    font-weight: bolder;
 }
 /* Ganme Image */
 .center {
