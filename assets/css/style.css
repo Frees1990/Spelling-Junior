@@ -9,24 +9,25 @@ body{
     font-style: normal;
 }
 /* Index */
+/* navbar */
+.indexNav{
+    margin-left: 90%;
+}
+/* form */
 .front {
-    margin-top: 25%;
+    margin-top: 5%;
     text-align: center;
 }
 label {
     margin-left: 20px;
     font-size: x-large;
 }
-#name {
+#name, #wordsCount{
     margin-left: 20px;
     padding: 10px;
     width: 300px; 
+    font-size: larger;
 }
-#wordsCount{
-    margin-left: 20px;
-    padding: 10px;
-    width: 300px;
-} 
 #startGame {
     margin-left: 50px;
     padding: 10px;
@@ -38,7 +39,7 @@ label {
 
 /* Game */
 /* navbar */
-.navbar-brand{ 
+.gameNav{ 
     margin-left: 50%;
     font-size: x-large;
 }
