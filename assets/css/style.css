@@ -34,6 +34,15 @@ label {
     background-color: red;
     font-family: inherit;  
 }
+
+
+/* Game */
+/* navbar */
+.navbar-brand{ 
+    margin-left: 50%;
+    font-size: x-large;
+}
+/* Ganme Image */
 .center {
     display: block;
     margin-top: 10%;
@@ -41,11 +50,12 @@ label {
     margin-right: auto;
     width: 600px
 }
+/* Game Board */
 .board-function {
     text-align: center;
     margin-top: 20px;
 }
-/* INPUT BOX */
+/* Input Box */
 #Entry {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -80,19 +90,19 @@ label {
     font-family: "Playfair Display", serif;
     letter-spacing: 3px;
 }
-
+/* repeat word button */
 #talk {
     margin-left: 30px;
 }
 
 /* Game Score Area */
-
+/* Correct Scores */
 .scores {
     font-size: x-large;
     font-family: "Playfair Display", serif;
     font-optical-sizing: auto;
 }
-
+/* Incorrect Scores */
 .mistakes {
     font-size: x-large;
     font-family: "Playfair Display", serif;
