@@ -1,4 +1,5 @@
 $("#Entry").focus();
+
 const playerName = getQueryParam("name","guest");
 let wordsCount = parseInt(getQueryParam("wordsCount", "10"));
 
@@ -23,6 +24,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+$(document).ready(function(){
+    $("#check").keypress(function(){
+    });
+  });
+
 // This here is to generate the words above on shuffle"random" and alerts player that the game is over when he reaches up to the number of words the player entered in the index page
 
 document.getElementById("generate").addEventListener("click", function(){
@@ -34,7 +40,7 @@ document.getElementById("generate").addEventListener("click", function(){
         speechSynthesis.speak(utterance)
         wordsCount = wordsCount  - 1;
         $("#Entry").focus();
-        if (wordsCount === 0) { 
+        if (wordsCount === -1) { 
             document.getElementById("generate").disabled = true;
             alert ("GAME OVER!!!" + playerName);
             $("#Entry").focus();
@@ -55,7 +61,10 @@ document.getElementById("talk").addEventListener("click", function(){
 
 document.getElementById("check").addEventListener("click", function() { 
     const Entry = document.getElementById("Entry").value;
-
+    $(document).ready(function(){
+        $("#check").keypress(function(){
+        });
+      });
     if(Entry.trim().toLowerCase()===word){
         alert("That is Correct, Well done")
         TallyScore();
@@ -71,6 +80,10 @@ document.getElementById("check").addEventListener("click", function() {
         }
     }
     document.getElementById("Entry").value='';
+    $(document).ready(function(){
+        $("#check").keypress(function(){
+        });
+      });
 });
 
 // This is where the scores are incremented
