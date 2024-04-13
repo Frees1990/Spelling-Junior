@@ -1,3 +1,4 @@
+$("#Entry").focus();
 const playerName = getQueryParam("name","guest");
 let wordsCount = parseInt(getQueryParam("wordsCount", "10"));
 
@@ -22,7 +23,7 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-// This here is to generate the words above on shuffle"random"
+// This here is to generate the words above on shuffle"random" and alerts player that the game is over when he reaches up to the number of words the player entered in the index page
 
 document.getElementById("generate").addEventListener("click", function(){
     currentWord = Math.floor(Math.random() * words.length);
@@ -31,12 +32,15 @@ document.getElementById("generate").addEventListener("click", function(){
         const utterance = new SpeechSynthesisUtterance();
         utterance.text=word
         speechSynthesis.speak(utterance)
-        wordsCount = wordsCount - 1;
+        wordsCount = wordsCount  - 1;
+        $("#Entry").focus();
         if (wordsCount === 0) { 
             document.getElementById("generate").disabled = true;
             alert ("GAME OVER!!!" + playerName);
+            $("#Entry").focus();
         }
 });
+
 
 // This for the repeat button, provided for user to repeat the word in case they missed it the first time, copied and pasted another one to repeat again. 
 
@@ -55,12 +59,15 @@ document.getElementById("check").addEventListener("click", function() {
     if(Entry.trim().toLowerCase()===word){
         alert("That is Correct, Well done")
         TallyScore();
+        $("#Entry").focus();
     }
     else {
         TallyMistake();
         alert("Sorry, Try again")
+        $("#Entry").focus();
         if (chances === 0) {
             alert("This is how you spell ---" + word) 
+            $("#Entry").focus();
         }
     }
     document.getElementById("Entry").value='';
