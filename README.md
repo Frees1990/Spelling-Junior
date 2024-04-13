@@ -39,30 +39,25 @@
 ## **UX**
 
 ### **Site Purpose**
-    With the developement in technology we have seen a lot of improvements in our children when it comes to getting everything digitize. Like everthing else good unfortunately there are also adheres effect on this. 
-    A lot of children are prone to shortcuts not a bad thing though but this pushed us in decline of children unable to spell even the easiest word. 
-
+    With the developement in technology we have seen a lot of improvements in our children when it comes to getting everything digitalize. Unfortunately there are also adheres effect on the advancement of technology and one of these are cutting corners and shortening how we properly speak or write to each other. It may help in some aspects like speeding up the process and communicating faster. However, using shortened and abreviating our words are affecting our knowledge to spell the words correctly and this has affected a lot of our todays youth. 
 
 #### What For: 
-    This Web based game is to improve and develope my kids spelling skill. 
+    This Web based game is to improve and develope my kids and other kids that will use my project to practice their spelling and vocabulary skills. 
 
 #### Who For: 
-    I designed this web game to improve on my kids spelling skill, to me spelling is something a lot of us should encourage our children to improve in.
-
+    My target users are school age children who are in need to develope their spelling skills like my kids. 
 
 ### **Site Goal**
-
-
+    - My goal is for this site to be the most useful web game to any user. 
+    - At the moment the words in my project are embeded in my javascript but once I have done my Python course my goal is for the user to be able to input/edit/add words that they want to practice on. 
 
 ### **Current User Goal**
-
-
-### **New User Goal**
-    My Goal is for this Site game is to let user's(Parents/Guardian/Teachers) to ADD/EDIT words according to what they need to practice on. I think this could only be done using Python. 
-
+  - The words embeded in my java code ranges from easy to hard words which will give the user a bit of a challenge especially that I have randomize the words that are being generated in the game. 
+  - I have made the simple so that there are less distruction to the user. I believe that if there are not a lot of things happening in a page the user is most likely to concentrate on spelling the word that has been generated. 
+  - I also have added a fun logo to entice the user to use it.
 
 ### **Communication**
- 
+ English is the language that this site is supported 
 
 ## **Design**
 
