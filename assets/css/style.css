@@ -63,7 +63,7 @@ label {
     margin-top: 10%;
     margin-left: auto;
     margin-right: auto;
-    width: 30%;
+    width: 40%;
 }
 /* Game Board */
 .board-function {
@@ -198,7 +198,7 @@ label {
         margin-top: 10%;
         margin-left: auto;
         margin-right: auto;
-        width: 30%;
+        width: 40%;
     }
     /* Game Board */
     
@@ -262,7 +262,6 @@ label {
     .indexNav{
         margin-left: auto;
         margin-right:3%;
-        font-weight: bolder;
     }
     /* form */
     .front {
@@ -309,10 +308,8 @@ label {
     /* Ganme Image */
     .center {
         display: block;
-        margin-top: 10%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 30%;
+        margin: 0% auto auto auto;
+        width: 40%;
     }
     /* Game Board */
     .board-function {
