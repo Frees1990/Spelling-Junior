@@ -22,7 +22,7 @@ body{
 }
 label {
     margin-left: 20px;
-    font-size: x-large;
+    font-size: 2em;
 }
 #name, #wordsCount{
     margin-left: 20px;
@@ -33,9 +33,9 @@ label {
 #startGame {
     margin-left: 50px;
     padding: 10px;
-    font-size:large;
     background-color: red;
-    font-size: x-large;
+    font-size: 1.2em;
+    font-weight: bolder;
 }
 /* HELP */
 .helpHead {
@@ -60,10 +60,8 @@ label {
 /* Ganme Image */
 .center {
     display: block;
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
+    margin: 5% auto auto auto;
+    width: 35%;
 }
 /* Game Board */
 .board-function {
@@ -75,16 +73,14 @@ label {
     margin-top: 20px;
     margin-bottom: 10px;
     text-align: center;
-    width: 685px;
+    width: 350%;
     padding: 10px;
     font-size: large;
     font-family: "Playfair Display", serif;
 }
 /* Check Button */
 #check{
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 15px;
+    margin: 20px 0 10px 15px;
     width: 200px;
     padding: 10px;
     background-color: yellow;
