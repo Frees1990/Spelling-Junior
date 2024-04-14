@@ -40,11 +40,7 @@ document.getElementById("generate").addEventListener("click", function(){
         speechSynthesis.speak(utterance)
         wordsCount = wordsCount  - 1;
         $("#Entry").focus();
-        if (wordsCount === -1) { 
-            document.getElementById("generate").disabled = true;
-            alert ("GAME OVER!!!" + playerName);
-            $("#Entry").focus();
-        }
+        
 });
 
 
@@ -84,6 +80,11 @@ document.getElementById("check").addEventListener("click", function() {
         $("#check").keypress(function(){
         });
       });
+      if (wordsCount === 0) { 
+        document.getElementById("generate").disabled = true;
+        alert ("GAME OVER!!!" + playerName);
+        $("#Entry").focus();
+    }
 });
 
 // This is where the scores are incremented
