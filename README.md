@@ -39,17 +39,17 @@
 ## **UX**
 
 ### **Site Purpose**
-    With the developement in technology we have seen a lot of improvements in our children when it comes to getting everything digitalize. Unfortunately there are also adheres effect on the advancement of technology and one of these are cutting corners and shortening how we properly speak or write to each other. It may help in some aspects like speeding up the process and communicating faster. However, using shortened and abreviating our words are affecting our knowledge to spell the words correctly and this has affected not only our todays youth but alot of us. 
+  With the developement in technology we have seen a lot of improvements in our children when it comes to getting everything digitalize. Unfortunately there are also adheres effect on the advancement of technology and one of these are cutting corners and shortening how we properly speak or write to each other. It may help in some aspects like speeding up the process and communicating faster. However, using shortened and abreviating our words are affecting our knowledge to spell the words correctly and this has affected not only our todays youth but alot of us. 
 
 #### What For: 
-    This Web based game is to improve and develope my kids and other kids that will use my project to practice their spelling and vocabulary skills. 
+  This Web based game is to improve and develope my kids and other kids that will use my project to practice their spelling and vocabulary skills. 
 
 #### Who For: 
-    My target users are school age children who are in need to develope their spelling skills like my kids. 
+  My target users are school age children who are in need to develope their spelling skills like my kids. 
 
 ### **Site Goal**
-    - My goal is for this site to be the most useful web game to any user. 
-    - At the moment the words in my project are embeded in my javascript but once I have done my Python course my goal is for the user to be able to input/edit/add words that they want to practice on. 
+  - My goal is for this site to be the most useful web game to any user. 
+  - At the moment the words in my project are embeded in my javascript but once I have done my Python course my goal is for the user to be able to input/edit/add words that they want to practice on. 
 
 ### **Current User Goal**
   - The words embeded in my java code ranges from easy to hard words which will give the user a bit of a challenge especially that I have randomize the words that are being generated in the game. 
