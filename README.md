@@ -60,28 +60,12 @@
  English is the language that this site is supported 
 
 ## **Design**
-  - I made the design as simple as possible to ommit distraction. While making this project, I have always taken into consideration my childs personality. He is easily distracted like any other kids so in order to lessen the interuption, I have made the design a little less distracting to the user. I initially thought of just a one page game, However, I thought of making it more personal to the user and added another page to give more information how to navigate through the game to provide more guide to users who need more support. 
+  - I made the design as simple as possible to omit distraction. While making this project, I have always taken into consideration my childs personality. He is easily distracted like any other kids so in order to lessen the interuption, I have made the design a little less distracting to the user. I initially thought of just a one page game, However, I thought of making it more personal to the user and added another page to give more information how to navigate through the game to provide more guide to users who need more support. 
 
 ### **Wireframe**
 This is my Initial Plans without the 2 addtional pages, it is exactly how it looks like without the Index and the Help page .
 
 ![Game Page](assets/readme-images/wireframe.png)
-
-
-### WEBPAGE VIEW
-  ![Home Page]
-  ![My Story Page]
-  ![Visa Process Page]
-  ![Documents Page]
-  ![Contact Page]
-
-
-### MOBILE VIEW
-  ![MHome Page]
-  ![MMy Story Page]
-  ![MVisa Process Page]
-  ![MDocuments Page]
-  ![MContact Page]
 
  
 ### **Colour Palette**
@@ -139,11 +123,6 @@ Playfair and Sans-Serif
 
   
 
-
-
-### **Language Used**
- 
-
 ### **Navigation Bar**
 
 
@@ -156,7 +135,21 @@ Playfair and Sans-Serif
 
 
 ## **Testing**
+### User Experience
+  ![Mobile Full View](assets/readme-images/mobileview2.jpg) ![Mobile-Full-View-w/-keypad](assets/readme-images/mobileview1.jpg)
+  - It look a little bit small when you use it in mobile view as you can see above. I wanted to move it in the middle but I thought once the input box is triggered the keypad shows up it limits the view forcing user to scroll down and up making it frustrating. So I left it on top visibility leaving room for the keypad for easier user experience. 
+
+  - Please see below screenshots of users that tested my game. 
+  ![USER FEEDBACK](assets/readme-images/userfeedback1.jpg) ![USER FEEDBACK2](assets/readme-images/userfeedback2.jpg)
+  - Since the game is designed for children. I made my kids try it out today 
+      - George 9 years old tested at 17/04/24 3:50PM 
+        - I's quite good mam but sometimes I do not understand what it is saying but it helps that there is a repeat button I can use to listen to it again. 
+      - Gia 4 years old tested at 17/04/24 4PM
+        - I like it, it looks pretty
+        (She don't know how to spell the words obviously but she wanted to take part so I just let her test it and ask her input on how it looks)
+
 ### Bugs and Issues
+  Game Over / End Game alert does not show after you spell your last word and click the check word button, it only shows when you click the Generate button again which doesn't make sense for a user. 
   - ##### IDE issues
     
 
