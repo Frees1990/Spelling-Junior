@@ -1,7 +1,7 @@
 # SPELLING TIME
 
 ### Welcome to SPELLING TIME!!
-![UI]
+![UI](assets/readme-images/UI.png)
 
 <!-- Introducttion about the site -->
 
