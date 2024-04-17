@@ -77,7 +77,8 @@ document.getElementById("check").addEventListener("click", function() {
       });
       if (wordsCount === 0) { 
         document.getElementById("generate").disabled = true;
-        alert ("GAME OVER!!!" + playerName + "," + "Well done, You did great!!");
+        alert ("That's the END!!! " + playerName)
+        alert ("Well done, You did great!!, " + "Your Correct Answer Score is = " + parseInt(document.getElementById("score").innerText) + "Your Incorrect Snswer Score is = " + parseInt(document.getElementById("mistake").innerText));
         alert ("Click the home button to restart game")
         $("#Entry").focus();
         
