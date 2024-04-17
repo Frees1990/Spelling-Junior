@@ -39,7 +39,7 @@
 ## **UX**
 
 ### **Site Purpose**
-    With the developement in technology we have seen a lot of improvements in our children when it comes to getting everything digitalize. Unfortunately there are also adheres effect on the advancement of technology and one of these are cutting corners and shortening how we properly speak or write to each other. It may help in some aspects like speeding up the process and communicating faster. However, using shortened and abreviating our words are affecting our knowledge to spell the words correctly and this has affected a lot of our todays youth. 
+    With the developement in technology we have seen a lot of improvements in our children when it comes to getting everything digitalize. Unfortunately there are also adheres effect on the advancement of technology and one of these are cutting corners and shortening how we properly speak or write to each other. It may help in some aspects like speeding up the process and communicating faster. However, using shortened and abreviating our words are affecting our knowledge to spell the words correctly and this has affected not only our todays youth but alot of us. 
 
 #### What For: 
     This Web based game is to improve and develope my kids and other kids that will use my project to practice their spelling and vocabulary skills. 
@@ -60,8 +60,11 @@
  English is the language that this site is supported 
 
 ## **Design**
+  - I made the design as simple as possible to ommit distraction. While making this project, I have always taken into consideration my childs personality. He is easily distracted like any other kids so in order to lessen the interuption, I have made the design a little less distracting to the user. I initially thought of just a one page game, However, I thought of making it more personal to the user and added another page to give more information how to navigate through the game to provide more guide to users who need more support. 
 
 ### **Wireframe**
+This is my Initial Plans without the 2 addtional pages, it is exactly how it looks like without the Index and the Help page .
+![Game Page](assets/readme-images/wireframe.png)
 
 
 ### WEBPAGE VIEW
