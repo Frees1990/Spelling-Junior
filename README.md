@@ -136,12 +136,15 @@ Playfair and Sans-Serif
 
 ## **Testing**
 ### User Experience
-  ![Mobile Full View](assets/readme-images/mobileview2.jpg) ![Mobile-Full-View-w/-keypad](assets/readme-images/mobileview1.jpg)
+  ![Mobile Full View](assets/readme-images/mobileview2.jpg) 
+  ![Mobile-Full-View-w/-keypad](assets/readme-images/mobileview1.jpg)
+  
   - It look a little bit small when you use it in mobile view as you can see above. I wanted to move it in the middle but I thought once the input box is triggered the keypad shows up it limits the view forcing user to scroll down and up making it frustrating. So I left it on top visibility leaving room for the keypad for easier user experience. 
 
-  - Please see below screenshots of users that tested my game. 
+  Please see below screenshots of users that tested my game. 
   ![USER FEEDBACK](assets/readme-images/userfeedback1.jpg) ![USER FEEDBACK2](assets/readme-images/userfeedback2.jpg)
-  - Since the game is designed for children. I made my kids try it out today 
+  
+  Since the game is designed for children. I made my kids try it out today 
       - George 9 years old tested at 17/04/24 3:50PM 
         - I's quite good mam but sometimes I do not understand what it is saying but it helps that there is a repeat button I can use to listen to it again. 
       - Gia 4 years old tested at 17/04/24 4PM
