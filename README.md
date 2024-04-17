@@ -64,6 +64,7 @@
 
 ### **Wireframe**
 This is my Initial Plans without the 2 addtional pages, it is exactly how it looks like without the Index and the Help page .
+
 ![Game Page](assets/readme-images/wireframe.png)
 
 
