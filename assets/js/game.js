@@ -71,7 +71,9 @@ document.getElementById("check").addEventListener("click", function() {
         alert("Sorry, Try again")
         $("#Entry").focus();
         if (chances === 0) {
-            alert("This is how you spell ---" + word) 
+            alert("This is how you spell ---" + word)
+            alert ("GAME OVER!!!" + playerName);
+            alert ("Click the home button to restart game") 
             $("#Entry").focus();
         }
     }
@@ -82,8 +84,10 @@ document.getElementById("check").addEventListener("click", function() {
       });
       if (wordsCount === 0) { 
         document.getElementById("generate").disabled = true;
-        alert ("GAME OVER!!!" + playerName);
+        alert ("GAME OVER!!!" + playerName + "," + "Well done, You did great!!");
+        alert ("Click the home button to restart game")
         $("#Entry").focus();
+        
     }
 });
 
@@ -92,6 +96,7 @@ function TallyScore() {
     let prevScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++prevScore;
     chances = 3;
+    
 }
 function TallyMistake() {
     let prevScore = parseInt(document.getElementById("mistake").innerText);
