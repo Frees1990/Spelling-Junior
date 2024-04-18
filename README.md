@@ -16,20 +16,16 @@
     - [**New User Goal**](#new-user-goal)
     - [**Communication**](#communication)
   - [**Design**](#design)
-    - [**Wireframe**](#Balsamiq)
+    - [**Wireframe**](#Wireframe)
     - [**Colour Palette**](#colour-palette)
     - [**Typography**](#typography)
     - [**Images**](#images)
   - [**Features**](#features)
-    - [**Language Used**](#language-used)
-    - [**Navigation Bar**](#navigation-bar)
-    - [**Landing Page**](#landing-page)
-    - [**Footer**](#footer)
     - [**Future Features**](#future-features)
   - [**Testing**](#testing)
     - [**HTML Validatior Test**](#html-validatior-test)
     - [**CSS Validator Test**](#css-validator-test)
-    - [**Lighthouse Mobile**](#lighthouse-mobile)
+    - [**Lighthouse**](#lighthouse)
     - [**Libraries and Progransms used**](#libraries-and-progransms-used)
   - [**Deployment & Usage**](#deployment--usage)
     - [**Deployment**](#deployment)
@@ -63,9 +59,10 @@
   - I made the design as simple as possible to omit distraction. While making this project, I have always taken into consideration my childs personality. He is easily distracted like any other kids so in order to lessen the interuption, I have made the design a little less distracting to the user. I initially thought of just a one page game, However, I thought of making it more personal to the user and added another page to give more information how to navigate through the game to provide more guide to users who need more support. 
 
 ### **Wireframe**
-This is my Initial Plans without the 2 addtional pages, it is exactly how it looks like without the Index and the Help page .
 
-![Game Page](assets/readme-images/wireframe.png)
+  - This is my Initial Plans without the 2 addtional pages, it is exactly how it looks like without the Index and the Help page .
+
+  ![Game Page](assets/readme-images/wireframe.png)
 
  
 ### **Colour Palette**
@@ -74,62 +71,27 @@ This is my Initial Plans without the 2 addtional pages, it is exactly how it loo
 Playfair and Sans-Serif 
 
 ### **Images**
-#### Home Page:
-
-
-#### My Story Page:
-
-
-#### Visa Process Page:
-
+- Images that are used are within school age visual taste.
 
 ## **Features**
 ### NAVIGATION BAR ON ALL PAGES WITH ACTIVE HIGHLIGHT
-  ![Nav Bar]
+  - Compared to my 1st milestone project, my game only has a few pages and this game is quite straight forward. To avoid confusion I made the game simple with a few features that could help users navigate the game easily. 
 
-  
-### SHORT DESCRIPTIVE TEXT ABOUT THE SITE AND PHOTO OF THE CONTENT CREATOR
+  - This button is in the Home page where the players are ask to key in their details and the number of words that they want to play.
 
-  ![description]
+  ![Home](assets/readme-images/helpinhome.png)
 
+  - This navigation bar holds the Home button and the help button. I added the help button just in case they forgot instructions. However, once in the help page the only way to get back is by going back to the home button to reset the game. 
 
-### SOCIAL LINKS
+  ![Game](assets/readme-images/homeandhelpingame.png)
 
-  ![Social Links]
+  - This button is the back button found in the help page which takes you back to the home page and restart the game. 
 
-   
+  ![HelpBackbutton](assets/readme-images/back-button.png)
 
-### CAROUSEL
-    
-  ![carousel]
+  - This is the help page, where user can read about the game and find instructions. The game itself is very straight forward this was made just in case there are user who need further help. 
 
-  
-
-### WORKING LINKS
-  ![Working Links]
-
-  
-
-### VIDEO
-  ![VIDEO]
-
-
-
-### DOWNLOADABLE PDF LINK
-  ![PDF LINK ]
-
-  ### CONTACT PAGE 
-  ![Contact Page]
-
-  
-
-### **Navigation Bar**
-
-
-### **Landing Page**
-
-### **Footer**
-
+  ![Help](assets/readme-images/helpfeature.png)
 
 ### **Future Features**
 
@@ -144,7 +106,7 @@ Playfair and Sans-Serif
   Please see below screenshots of users that tested my game. 
   ![USER FEEDBACK](assets/readme-images/userfeedback1.jpg) ![USER FEEDBACK2](assets/readme-images/userfeedback2.jpg)
   
-  Since the game is designed for children. I made my kids try it out today 
+  Since the game is designed for children. I made my own kids try it out today 
       - George 9 years old tested at 17/04/24 3:50PM 
         - I's quite good mam but sometimes I do not understand what it is saying but it helps that there is a repeat button I can use to listen to it again. 
       - Gia 4 years old tested at 17/04/24 4PM
@@ -171,27 +133,10 @@ Playfair and Sans-Serif
 
 ### **CSS Validator Test**
 
-### **Lighthouse Desktop/Mobile**
-
-- I ran the lighthouse both in google chrome and incognito mode in mobile and as well desktop. 
-The First time I ran it it gave me : 
-
-  - 43% perfromance and 100% on accessibility, Best Practice and SEO for my home page.
-  - 75% perfromance 100% on accessibility, Best Practice and SEO.
-  - 56% perfomance 100% on accessibility, Best Practice and SEO.
-  - 99% performance 100% on accessibility, Best Practice and SEO.
-  - 100% performance 100% on accessibility, Best Practice and SEO.
-
-
-   I read through the list of things that I could improve on. One of them is compressing my images from Home page and Visa Process page which I did, after compressing my image, uploading it and pushed it on Github. 
-   
-   I tried ruinning lighthouse again, it gave me :
-   - 75% perfromance, 80%  accessibility, 100% Best Practice and 89% SEO.
-   Unfortunately, I wasn't able to screenshot the above and could not remember the rest. I do not understand why it affected the accessiblity and the SEO. I was reading through it and it's citing my CDN's but I cannot delete my CDN's beause they are necessary for my bootstrap code. 
-
-The mose confusing part after hours and hours finding a way for it to get a green, I finally gave up. Open my deployed site again the next day and is now giving me a different score. This part of testing took me 4 days 5 hrs each day and still could not understand, unfortunately its nearly time to submit my project and I will ready through about lighthouse in my own pace to understand how it works. At the moment, to be honest I have no clue what I am doing with lighthouse but it would be interesting to find out what I did wrong and what I can do to achieve full marks on this testing. 
-
-### LIGHTHOUSE LASTMINUTE FIX 30-01-2024
+### **Lighthouse Desktop**
+  ![Home-Page](assets/readme-images/Indexpage.png)
+  ![Game-Page](assets/readme-images/gamepage.png)
+  ![Help-Page](assets/readme-images/help-page.png)
 
 ## **Libraries and Programs used**
 
