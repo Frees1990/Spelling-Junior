@@ -123,6 +123,7 @@ Playfair and Sans-Serif
     - I wanted the cursor to stay in the input box using jquery but it didn't before because I placed it in the wrong place. I moved it now near the DOM event listener and other event listener for the other buttons. I thought you don't need it on the other button but it turns out you do as when I tested them without the jquery method the cursor do not stay put so I left all the jquery on all event listener buttons. 
 
     - alt was found on all my <a> tags which wasn't supposed to be there. Using w3c was able to track mistake and corrected it. 
+    - Duplicate class found on lin 27 and 35 in Game page. 
 
   - #### User Experience Issues
     - The view on the mobile is quite tricky as It looks quite small. However you could always zoom it in. The reason why I made it fit length wise and on the top is because I wanted to keep some space in the buttom for when the keybox appears it does not eat up the space for the game forcing the user to scroll up and down which is kinda frustrating as a user. 
@@ -135,6 +136,8 @@ Playfair and Sans-Serif
 
 
 ### **HTML Validatior Test**
+  https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2F
+
 
 ### **CSS Validator Test**
 
