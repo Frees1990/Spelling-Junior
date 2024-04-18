@@ -152,15 +152,20 @@ Playfair and Sans-Serif
         (She don't know how to spell the words obviously but she wanted to take part so I just let her test it and ask her input on how it looks)
 
 ### Bugs and Issues
-  Game Over / End Game alert does not show after you spell your last word and click the check word button, it only shows when you click the Generate button again which doesn't make sense for a user. 
-  - ##### IDE issues
-    
 
   - #### Code Issues
-   
-  - #### Path Issues 
-    
-  - #### Deployment Issues  
+    - Game Over / End Game alert does not show after you spell your last word and click the check word button, it only shows when you click the Generate button again which doesn't make sense for a user. So I tried moving the alert to the check button code however it wasn't working. I found out that it should be set to ===0 not === -1 as this one I tried first before moving the alerts geography. 
+
+    - I wanted the alert to show the scores but I could't seem to make it work. I have researched about it, but for some reason I could not find any solution for what I wanted to do. I may have asked the wrong questions reason why I couldn't get anywhere but I somehow figured it out myself. I don't know if it is the right way but it somehow works. 
+
+    - I wanted the cursor to stay in the input box using jquery but it didn't before because I placed it in the wrong place. I moved it now near the DOM event listener and other event listener for the other buttons. I thought you don't need it on the other button but it turns out you do as when I tested them without the jquery method the cursor do not stay put so I left all the jquery on all event listener buttons. 
+
+  - #### User Experience Issues
+    - The view on the mobile is quite tricky as It looks quite small. However you could always zoom it in. The reason why I made it fit length wise and on the top is because I wanted to keep some space in the buttom for when the keybox appears it does not eat up the space for the game forcing the user to scroll up and down which is kinda frustrating as a user. 
+
+  - #### Deployment Issues
+    -  Issue on Deployment, silly mistake that a noob like me does. I did not make an index page making my website untraceable/unloadable when deployed. When I had my meeting with my mentor only then I realized my mistake. This must have been mentioned during the HTML part of the course but clearly I might have forgotten or skipped that part. However, that mistake has opened an opportunity for me to make my website much more appealing. Making an index which is used to record the players info and set how many he words the user would want to do. Opening more opportunities to open another page to help guide users who needs further instructions. 
+
 
 ### **HTML Validatior Test**
 
