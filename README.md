@@ -141,6 +141,10 @@ Playfair and Sans-Serif
   https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2Fhelp.html
 
 ### **CSS Validator Test**
+  https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
+
+### **JS Validator Test**
+ 
 
 ### **Lighthouse Desktop**
   ![Home-Page](assets/readme-images/Indexpage.png)
