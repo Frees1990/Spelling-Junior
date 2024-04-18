@@ -137,6 +137,7 @@ Playfair and Sans-Serif
 
 ### **HTML Validatior Test**
   https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2F
+  https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2Fgame.html%3Fname%3DFair%2BFlower%26wordsCount%3D2
 
 
 ### **CSS Validator Test**
