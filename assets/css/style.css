@@ -84,6 +84,9 @@ label {
     font-size: large;
     font-family: "Playfair Display", serif;
 }
+#Entry:hover {
+    background-color: orange;
+}
 /* Check Button */
 #check{
     margin: 20px 0 10px 15px;
@@ -93,6 +96,9 @@ label {
     font-size: large;
     font-family: "Playfair Display", serif;
     letter-spacing: 3px;
+}
+#check:hover {
+    background-color: orange;
 }
 
 /* Generate and Repeat Button */
@@ -106,6 +112,9 @@ label {
     color: white;
     font-family: "Playfair Display", serif;
     letter-spacing: 3px;
+}
+#generate:hover, #talk:hover {
+    background-color: orange;
 }
 /* repeat word button */
 #talk {
