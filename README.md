@@ -7,13 +7,12 @@
 
 ## Table of Contents
 
-- [Speling Time](#Spelling-Time)
+- [Spelling Time](#Spelling-Time)
   - [Table of Contents](#table-of-contents)
   - [**UX**](#ux)
     - [**Site Purpose**](#site-purpose)
     - [**Site Goal**](#site-goal)
     - [**Current User Goal**](#current-user-goal)
-    - [**New User Goal**](#new-user-goal)
     - [**Communication**](#communication)
   - [**Design**](#design)
     - [**Wireframe**](#Wireframe)
@@ -53,7 +52,7 @@
   - I also have added a fun logo to entice the user to use it.
 
 ### **Communication**
- English is the language that this site is supported 
+ This is a English Spelling Practice game, designed and created to enhance kids under the ager of 12 spelling skills.
 
 ## **Design**
   - I made the design as simple as possible to omit distraction. While making this project, I have always taken into consideration my childs personality. He is easily distracted like any other kids so in order to lessen the interuption, I have made the design a little less distracting to the user. I initially thought of just a one page game, However, I thought of making it more personal to the user and added another page to give more information how to navigate through the game to provide more guide to users who need more support. 
@@ -66,6 +65,13 @@
 
  
 ### **Colour Palette**
+  Simple color choices, vibrant but yet not too distracting to my target audience. 
+  - BLUE
+  - RED
+  - rgb(238, 4, 4);
+  - ORANGE
+  - YELLOW
+  - GREEN
 
 ### **Typography**
 Playfair and Sans-Serif 
@@ -104,7 +110,7 @@ Playfair and Sans-Serif
   ![Help](assets/readme-images/helpfeature.png)
 
 ### **Future Features**
-
+  When I get to go through PYHTON, my plans for this web game is to give the user the capability to feed the game new words to spell to practice. 
 
 ## **Testing**
 ### User Experience
@@ -151,11 +157,11 @@ Playfair and Sans-Serif
     ![JS.HINT](assets/readme-images/js.hint.png) 
 
 ### **HTML Validatior Test**
-  https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2F
+  INDEX PAGE :  https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2F
 
-  https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2Fgame.html%3Fname%3DFair%2BFlower%26wordsCount%3D2
+  GAME PAGE  :  https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2Fgame.html%3Fname%3DFair%2BFlower%26wordsCount%3D2
   
-  https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2Fhelp.html
+  HELP PAGE  :  https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2Fhelp.html
 
 ### **CSS Validator Test**
   https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
@@ -175,14 +181,20 @@ Playfair and Sans-Serif
   ![Help-Page](assets/readme-images/help-page.png)
 
 ## **Libraries and Programs used**
-
+  - Bootstrap 5.0
+  - FREEPIK
+  - W3C
+  - w3school
+  - Gitpod/Codeanywhwere
+  - Google Fonts: Font family "Playfair", sans-serif;
+  - ev Tools: For styling and lighthouse
+  - Font Awesome: Dropdown menu icon
+  - UI.DEV: Responsive screenshots of the final project for the README file
+  - Squoosh app/editor
 
 ## **Deployment & Usage**
 ### **Deployment**
-To deploy my site on Git Hub I made the following steps. I found out how to deploy my project when I was playing around with github trying to fix my incorrect path which hinders my images to load up on live. 
-
 These are the steps:
-
  - Go to the Settings tab of your GitHub repo.
  - On the left-hand sidebar, in the Code and automation section, select Pages.
  - Make sure: Source is set to 'Deploy from Branch'.
@@ -207,8 +219,7 @@ These are the steps:
   1.  On GitHub.com, navigate to your fork of the Spoon-Knife repository.
   2.  Above the list of files, click  Code.
   3.  Copy the URL for the repository.
-    - To clone the repository us
-    itory using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click .
+    - To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click SSH, then click .
     - To clone a repository using GitHub CLI, click GitHub CLI, then click .
   4.  Open Git Bash.
   5.  Change the current working directory to the location where you want the cloned directory.
@@ -216,6 +227,6 @@ These are the steps:
   7.  Press Enter. Your local clone will be created.
 
 ## **Credits**
-
-
+  - Idea of this game is from 
 ### **Media**
+  - Image is a paid image from freepix
