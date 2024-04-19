@@ -74,6 +74,16 @@ Playfair and Sans-Serif
 - Images that are used are within school age visual taste.
 
 ## **Features**
+### GAME NAVIGATION
+    - Home page enables the users to enter their name and how many words they want to spell.
+    - In the Game page it allows the user to have 3 chances when they mispelled the word and an alert will show how the word is spelled. 
+      - It also shows how many they have spelled right and how many they spelled incorrectly. 
+      - I have also added a repeat button to allow users to let the word repeat as many times they like. One of my testers complained that she could not understand the accent of the voice. However, this is something I do not know what to do. In my theory and testing the voice is dependable to the device that you use. In my computer it is a male with a very strong london accent and then on my phone is a woman with a strong northern accent. When I let my sister use it in croatia it was a different accent too. I let my brother use it Philippines he got an american accent. 
+      -Alerts are there too
+        1 - To let them know that they have spelled it wrong or right
+        2 - To let them know that the game has finishes
+        3 - To guide the user what they need to do next.
+
 ### NAVIGATION BAR ON ALL PAGES WITH ACTIVE HIGHLIGHT
   - Compared to my 1st milestone project, my game only has a few pages and this game is quite straight forward. To avoid confusion I made the game simple with a few features that could help users navigate the game easily. 
 
@@ -104,7 +114,8 @@ Playfair and Sans-Serif
   - It look a little bit small when you use it in mobile view as you can see above. I wanted to move it in the middle but I thought once the input box is triggered the keypad shows up it limits the view forcing user to scroll down and up making it frustrating. So I left it on top visibility leaving room for the keypad for easier user experience. 
 
   Please see below screenshots of users that tested my game. 
-  ![USER FEEDBACK](assets/readme-images/userfeedback1.jpg) ![USER FEEDBACK2](assets/readme-images/userfeedback2.jpg)
+  ![USER FEEDBACK](assets/readme-images/userfeedback1.jpg) 
+  ![USER FEEDBACK2](assets/readme-images/userfeedback2.jpg)
   
   Since the game is designed for children. I made my own kids try it out today 
       - George 9 years old tested at 17/04/24 3:50PM 
@@ -134,6 +145,10 @@ Playfair and Sans-Serif
   - #### Deployment Issues
     -  Issue on Deployment, silly mistake that a noob like me does. I did not make an index page making my website untraceable/unloadable when deployed. When I had my meeting with my mentor only then I realized my mistake. This must have been mentioned during the HTML part of the course but clearly I might have forgotten or skipped that part. However, that mistake has opened an opportunity for me to make my website much more appealing. Making an index which is used to record the players info and set how many he words the user would want to do. Opening more opportunities to open another page to help guide users who needs further instructions. 
 
+  - #### Testing Issues
+    - Error was showing in JS.hint that my SpeechSynthesisUtterance and Utterance was unreadable. Mentor Daniel explained to m that there wasn't wrong with my code and it only is an error with JS. hint. He then adviced me to add this comment to JS.hint. The error in JS.hint does not affect my actual code.
+    Sceenshot below shows that my code is clean. 
+    ![JS.HINT](assets/readme-images/js.hint.png) 
 
 ### **HTML Validatior Test**
   https://validator.w3.org/nu/?doc=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2F
@@ -146,7 +161,13 @@ Playfair and Sans-Serif
   https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffrees1990.github.io%2FSpelling-Time%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 ### **JS Validator Test**
- 
+  
+  I have added information on the BUGS and ISSUES section about issues I got using JS.HINT, kindly see below the same image I have attached at Bugs and Issues. 
+  ![JS.HINT](assets/readme-images/js.hint.png) 
+
+  Prior this screenshot it gave me a few hints what to do to clean up my code. 
+  -There were a few missing semi colons in a few lines.
+  -There were codes that weren't used.
 
 ### **Lighthouse Desktop**
   ![Home-Page](assets/readme-images/Indexpage.png)
