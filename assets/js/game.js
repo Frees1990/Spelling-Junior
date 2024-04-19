@@ -81,7 +81,7 @@ function TallyMistake() {
     document.getElementById("mistake").innerText = ++prevScore;
     chances = chances - 1;
 }
-// index page to pass on plaer name and number of words
+// index page to pass on player name and number of words
 function getQueryParam(param, defaultValue) {
     const urlParams = new URLSearchParams(window.location.search);
     return urlParams.has(param) ? urlParams.get(param) : defaultValue;
