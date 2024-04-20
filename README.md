@@ -227,7 +227,7 @@ These are the steps:
   7.  Press Enter. Your local clone will be created.
 
 ## **Credits**
-  - Idea of this game is from the school and I had a little look on google for reference but the only spelling bee I can find is a spelling bee with a honeycomb tiles to spell the word. Until I found a youtube video that plays exactly how I invision it in my head but not quite. So I enhanced it as what I really want it to look like. 
+  - Idea of this game is from the school where my child goes, the teacher was telling me how he is in spelling. I tutored him quite a bit to help him with spelling and did it by paper based on the words that the teachers have provided me. He was so bored so quickly and irritated so I thought maybe I could make it a little bit fun for him now found my self having a little look on google for reference but the only spelling bee I can find is a spelling bee with a honeycomb tiles to spell the word, which I think would not improve his spelling in my personal opinion. Until I found a youtube video that plays exactly how I invision it in my head but not quite. So I enhanced it as what I really want it to look like and how it works in my head. 
   
   https://www.youtube.com/watch?v=one3lEe0eFI&t=915s
 
