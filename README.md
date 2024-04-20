@@ -227,6 +227,11 @@ These are the steps:
   7.  Press Enter. Your local clone will be created.
 
 ## **Credits**
-  - Idea of this game is from 
+  - Idea of this game is from the school and I had a little look on google for reference but the only spelling bee I can find is a spelling bee with a honeycomb tiles to spell the word. Until I found a youtube video that plays exactly how I invision it in my head but not quite. So I enhanced it as what I really want it to look like. 
+  
+  https://www.youtube.com/watch?v=one3lEe0eFI&t=915s
+
+  above link is the video where my inspiration came from. 
+  
 ### **Media**
   - Image is a paid image from freepix
