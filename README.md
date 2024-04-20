@@ -17,6 +17,7 @@
   - [**Design**](#design)
     - [**Wireframe**](#Wireframe)
     - [**Colour Palette**](#colour-palette)
+    - [**Language Used**] (#Language-Used)
     - [**Typography**](#typography)
     - [**Images**](#images)
   - [**Features**](#features)
@@ -179,6 +180,12 @@ Playfair and Sans-Serif
   ![Home-Page](assets/readme-images/Indexpage.png)
   ![Game-Page](assets/readme-images/gamepage.png)
   ![Help-Page](assets/readme-images/help-page.png)
+
+  ![Home-Page-Mobile](assets/readme-images/homepage-mobile.png)
+  ![Game-Page-Mobile](assets/readme-images/gamepage-mobile.png)
+  ![Help-Page-Mobile](assets/readme-images/helppage-mobile.png)
+
+  With the mobile, I have tried compressing the image or even just using webp but it doesn't seemt to take much. I also have deleted or removed unused css/js code. 
 
 ## **Libraries and Programs used**
   - Bootstrap 5.0
